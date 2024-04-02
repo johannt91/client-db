@@ -16,6 +16,22 @@ Provide instructions on how to install your project, including any dependencies 
 
 ```bash
 # Example installation commands
-$ git clone https://github.com/your_username/project_name.git
-$ cd project_name
+$ git clone git@github.com:johannt91/client-db.git
+$ cd client-db
 $ npm install
+```
+
+After installation, create a `.env` with the following:
+
+```
+VITE_APP_ENDPOINT = "[APPWRITE ENDPOINT]"
+VITE_PROJECT_ID = "[APPWRITE PROJECT ID]"
+VITE_DATABASE_ID = "[APPWRITE DATABASE ID]"
+VITE_COLLECTION_ID = "[APPWRITE COLLECTION ID]"
+```
+
+## Acknowledgements
+
+Dennis Ivy's tutorial for creating protected routes in React using appwrite:
+
+https://www.youtube.com/watch?v=pGNxoIoLt_Y
